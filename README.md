@@ -1,8 +1,8 @@
-#✨BootCamp GFT Quality Assurance Para Mulheres ✨#
+BootCamp GFT Quality Assurance Para Mulheres
 
 Anotações e erxercícos realizados durante os estudos.
 
-##💻Bootcamp composto por 6 módulos:##
+Bootcamp composto por 6 módulos:
 
 🔸Módulo I - Fundamentos da Qualidade de Software
 
