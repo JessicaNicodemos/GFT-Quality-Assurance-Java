@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Collections-java/Collections-java.iml" filepath="$PROJECT_DIR$/Collections-java/Collections-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-dio-POO/desafio-dio-POO.iml" filepath="$PROJECT_DIR$/desafio-dio-POO/desafio-dio-POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudos-qa-java.iml" filepath="$PROJECT_DIR$/estudos-qa-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metodos/metodos.iml" filepath="$PROJECT_DIR$/metodos/metodos.iml" />
+    </modules>
+  </component>
+</project>
