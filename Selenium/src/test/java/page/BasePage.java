@@ -6,10 +6,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public abstract class BasePage {
     private WebDriver driver;
     private Actions action;
+    private WebDriverWait wait;
+    private Select select;
 
     public BasePage(){
         System.getProperty("webdriver.chrome.driver","/path/to/chromedriver");
@@ -70,6 +74,10 @@ public abstract class BasePage {
 
     public String getTextByAttribute(By locator, String attributeName){
         return this.driver.findElement(locator).getAttribute(attributeName);
+    }
+
+    public void clear(By locator){
+        findElement(locator).clear();
     }
 
 

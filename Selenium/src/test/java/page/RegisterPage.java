@@ -17,7 +17,7 @@ public class RegisterPage extends BasePage {
     private By yearsLocator = By.id("years");
     private By neesLetterLocator = By.id("newsletter");
     private By receiveOffersLocator = By.id("optin");
-    //LOCATORS YOUR ADDRESS
+    //LOCATORS YOUR ADDRESs
 
 
     public void insertEmailToRegister(){
